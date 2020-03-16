@@ -1,0 +1,348 @@
+/*
+Theme Name: OZD Studio
+Theme URI: http://underscores.me/
+Author: OZD Studio
+Author URI: http://ozdstudio.com
+Description: Custom theme by OZD Studio
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ozd-studio
+*/
+
+/* ==== MEDIA QUERIES ==== */
+.mobile-only{
+	display:none!important;
+}
+@media screen and (max-width : 1200px) {
+	.navbar-inverse .navbar-nav>li{
+		padding:0 5px;
+	}
+}
+
+@media screen and (max-width : 991px) {
+	.navbar-inverse .navbar-nav>li{
+		padding:0 10px;
+	}
+	.desktop-only{
+		display:none!important;
+	}
+	.mobile-only{
+		display:inherit!important;
+	}
+	span.mobile-only{
+		/* display: inline-block!important; */
+	}
+	.mobile-icon{
+		zoom:.5
+	}
+	.mobile-padding{
+		padding-left:15%;
+		padding-right:15%;
+	}
+	.mobile-center, .rtl .mobile-center{
+		text-align:center;
+		float:none;
+	}
+	.mobile-colmns{
+		margin-bottom:25px;
+	}
+	.mobile-colmns:last-of-type{
+		margin-bottom:0
+	}
+	.mobile-center hr{
+		margin-left:auto;
+		margin-right:auto;
+	}
+ 	.mobile-margin-bottom{
+ 		margin-bottom: 15px!important;
+ 	}
+ 	.float-bottom{
+ 		display: inline-block;
+ 		position: relative;
+ 	}
+ 	.disable-mobile{
+ 		pointer-events: none!important;
+ 	}
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+		float:none;
+	}
+	.rtl .navbar-social,
+	.navbar-social {
+		border: none;
+		padding-left: 0px;
+		margin-right: 0px;
+	}
+
+	.home-magazin-section .windy-arrow-mobile {
+		display: block;
+		position: absolute;
+		right: calc(50% + 50px);
+		top: -75px;
+		max-width: 140px;
+		transform: rotate(38deg) rotateY(180deg);
+	}
+
+	.rtl .home-magazin-section .windy-arrow-mobile {
+		left: calc(50% + 50px);
+		right: auto;
+		transform: rotate(-43deg);
+	}
+
+	.home-magazin-section .magazine-row {
+		display: block;
+		padding-top: 50px;
+		padding-left: 0;
+	}
+	
+	.rtl .home-magazin-section .magazine-row {
+		padding-right: 0;
+	}
+
+	.home-magazin-section .windy-arrow {
+		display: none;
+	}
+
+	.home-magazin-section .info-wrap {
+		margin: 0 auto 30px;
+	}
+}
+@media screen and (max-width : 767px) {
+	#wpadminbar{
+		display:none;
+	}
+	body{
+		margin-top:72px;
+	}
+	.navbar-inverse{
+		padding: 0;
+		background-color: transparent;
+	}
+
+	#footer_message{
+		padding:25px 0;
+	}
+	.navbar-inverse .navbar-brand{
+		float:none;
+		margin: 37px 0;
+	}
+	#searchform .form-group{
+		display:block;
+		width:100%;
+	}
+	h1{
+		font-size: 29px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 40px;
+	}
+	h4{
+		font-size: 30px;
+	}
+	.contact-msg,
+	.contact-detail{
+		display:block;
+		width:100%;
+		margin-bottom:7px;
+	}
+	#video-player{
+		min-height: calc(100vh - 72px);
+	}
+	#home_search, #search .container{
+		margin-left:15px;
+		margin-right:15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#searchform .form-group{
+		margin-bottom:10px;
+		display: block;
+		width: 100%;
+	}
+	.social-icon{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 24px;
+	}
+	.asset .form-header, .asset .wpcf7, .asset .manager{
+		margin-right:15px
+	}
+	.rtl .asset.full .asset-gallery{
+		margin-right:0;
+	}
+	.rtl .asset.full .meta{
+		margin-left:15px;
+	}
+	.map iframe{
+		height:150px
+	}
+	#contact_details{
+		background-position:top center;
+		background-size: 340%;
+		min-height:calc(100vh - 72px);
+	}
+	#contact_details h3{
+		margin-bottom:0px
+	}
+	#search{
+		padding: 15px 0;
+	}
+	#price{
+		margin-bottom: 30px;
+	}
+	#searchform #searchsubmit{
+		font-size:30px;
+		height: 54px;
+	}
+	#searchform .dropdown, #searchform input[type="search"]{
+		height:75px;
+		padding-right: 50px;
+	}
+	#searchform .dropdown .selected, #searchform .dropdown li{
+		padding: 18px 0;
+	}
+	#nav-bg{
+		position:fixed;
+		top:0;
+		background-color: #f9f9f9;
+		width:100vw;
+		height:72px;
+	}
+	
+	.navbar-collapse{
+		color:#fff;
+	}
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+		max-height:none;
+		background-color: transparent;
+	}
+	.navbar-inverse .navbar-nav>li>a{
+		font-size:34px;
+		padding:15px;
+		margin: 15px;
+	}
+	.navbar-inverse .container{
+		padding:0;
+	}
+	
+	.mobile-only .navbar-social{
+		display: flex!important;
+		background-color: rgba(255, 255, 255, 0.85);
+		width: 100%;
+		padding: 15px;
+		color: #757374;
+		border: none;
+		margin-top: 0;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-only .navbar-social .social-icon{
+		font-size: 30px;
+	}
+	.navbar-collapse>div{
+		display:block;
+		background-color: rgba(117, 115, 116, .85);
+		margin: 0;
+	}
+	.navbar-lang, .lang-item{
+		float:none;
+	}
+	.filters{
+		display:block;
+	}
+	.carat,
+	.dropdown:after{
+		pointer-events:none;
+	}
+	.rtl .lang-switcher,.lang-switcher{
+		float:none;
+		display: inline-block;
+		margin-top:5px;
+	}
+
+	.lang-switcher .dropdown{
+		display:inline-block;
+	    background-color: #103858;
+	    color: #fff;	
+		font-weight: 400;
+	}
+
+	.magazine-content-wrap .magazine-heading {
+		font-size: 32px;
+		margin: 12px 0 8px;
+	}
+
+	.magazine-content-wrap .meta {
+		display: none;
+	}
+
+	.magazine-content-wrap {
+		margin-top: 0;
+	}
+
+	.magazine-img-wrap {
+		padding-bottom: 88%;
+	}
+
+	.magazine-contaner {
+		margin-top: 55px;
+	}
+
+	.magazine-content-wrap .meta-mobile {
+		display: block;
+		text-align: center;
+		margin: 12px 0 30px;
+	}
+
+	.magazine-content p {
+		margin-bottom: 28px;
+	}
+
+	.magazine-content-wrap .magazine-read-more-wrap {
+		text-align: center;
+	}
+
+	.magazine-read-more-wrap .magazine-read-more {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width : 550px) {
+	.home-magazin-section .windy-arrow-mobile {
+		display: block;
+		position: absolute;
+		right: calc(50% + 40px);
+		top: -45px;
+		max-width: 90px;
+		transform: rotate(38deg) rotateY(180deg);
+	}
+
+	.rtl .home-magazin-section .windy-arrow-mobile {
+		left: calc(50% + 40px);
+		right: auto;
+		transform: rotate(-43deg);
+	}
+}
+
+/* transform: rotate(38deg) rotateY(180deg); */
+
+@media screen and (max-width : 400px) {
+	.home-magazin-section .windy-arrow-mobile {
+		display: block;
+		position: absolute;
+		right: calc(50% + 40px);
+		top: -50px;
+		max-width: 85px;
+		transform: rotate(38deg) rotateY(180deg);
+	}
+
+	.rtl .home-magazin-section .windy-arrow-mobile {
+		left: calc(50% + 40px);
+		right: auto;
+		transform: rotate(-43deg);
+	}
+}

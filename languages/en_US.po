@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OZD Studio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-17 09:50+0000\n"
+"PO-Revision-Date: 2017-10-17 09:52+0000\n"
+"Last-Translator: admin-inhouse <ozdstudio@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the template
+msgid "About Page"
+msgstr ""
+
+#. Name of the template
+msgid "assets Page"
+msgstr ""
+
+#. Name of the template
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#. Name of the template
+msgid "Contact Page"
+msgstr ""
+
+#: functions.php:246
+msgid "ID"
+msgstr ""
+
+#: functions.php:247
+msgid "מחיר"
+msgstr ""
+
+#: functions.php:248
+msgid "חדרים"
+msgstr ""
+
+#: functions.php:249
+msgid "שטח בנוי"
+msgstr ""
+
+#: functions.php:250
+msgid "שטח מגרש"
+msgstr ""
+
+#: header.php:62
+msgid "Skip to content"
+msgstr ""
+
+#. Name of the template
+msgid "Tips Page"
+msgstr ""
+
+#: template-parts/content-page.php:20 template-parts/content copy.php:38
+#: template-parts/content-page copy.php:22 template-parts/content-single.php:24
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-assets.php:38
+msgid "לא נמצאו נכסים, יש להכניס לחיפוש ערכים שונים."
+msgstr "No assets found. Try changing the search inputs."
+
+#: template-parts/content copy.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "אין תוצאות"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid "לא נמצאו תוצאות, נסו להכניס מילים אחרות בשדה החיפוש."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: Name of current post
+#. %s: Name of current post
+#. %s: Name of current post
+#: template-parts/content-page copy.php:34 template-parts/content-single.php:36
+#: inc/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. Name of the theme
+#. Author of the theme
+msgid "OZD Studio"
+msgstr ""
+
+#. Description of the theme
+msgid "Custom theme by OZD Studio"
+msgstr ""
+
+#. URI of the theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://ozdstudio.com"
+msgstr ""
+
+#: page-about.php:52
+msgid "אנשי הצוות שלנו"
+msgstr "Our Crew"
+
+#: searchform.php:15
+msgid "קנית / השכרת נכס"
+msgstr "For Sale / Rent"
+
+#: searchform.php:19 searchform.php:30 searchform.php:41
+msgid "הכל"
+msgstr "All"
+
+#: searchform.php:26
+msgid "בחר מיקום הנכס"
+msgstr "Asset Location"
+
+#: searchform.php:37
+msgid "בחר סוג הנכס"
+msgstr "Asset Type"
+
+#: searchform.php:46
+msgid "חיפוש חופשי..."
+msgstr "Search..."
+
+#: searchform.php:50
+msgid "חפש"
+msgstr "Search"
+
+#: searchform.php:55
+msgid "טווח מחירים"
+msgstr "Price Range"
+
+#: footer.php:25
+msgid "ליצירת קשר"
+msgstr "Contact Us"
+
+#: footer.php:43
+msgid "לשליחת הודעה"
+msgstr "Send a Message"
+
+#: footer.php:53
+msgid "משרדים לתיאום פגישות"
+msgstr "Our Offices"
+
+#: footer.php:80
+msgid "כל הזכויות שמורות ל"
+msgstr "All rights reserved to "
+
+#: footer.php:80
+msgid "אינהאוס"
+msgstr "INHOUSE"
+
+#: footer.php:80
+msgid "עיצוב אתר"
+msgstr "Website Design"
+
+#: footer.php:80
+msgid "פיתוח אתר"
+msgstr "Website Development"
+
+#: page-home.php:85
+msgid "קראו עוד"
+msgstr "Read More"
+
+#: page-home.php:98
+msgid "הנכסים שלנו"
+msgstr "Our Assets"
+
+#: page-home.php:114
+msgid "לכל הנכסים"
+msgstr "All Assets"
+
+#: page-contact.php:28 template-parts/content-asset-full.php:97
+msgid "שלחו הודעה"
+msgstr "Send a Message"
+
+#: template-parts/content-assets.php:16
+msgid "חיפוש נכס"
+msgstr "Asset Search"
+
+#: template-parts/content-asset.php:15 template-parts/content-asset-full.php:30
+msgid "להשכרה"
+msgstr "For Rent"
+
+#: template-parts/content-asset.php:37 template-parts/content-asset-full.php:56
+msgid "שטח בנוי:"
+msgstr "Build area:"
+
+#: template-parts/content-asset.php:37 template-parts/content-asset.php:38
+#: template-parts/content-asset-full.php:56
+#: template-parts/content-asset-full.php:57
+msgid "מ\"ר"
+msgstr "sqm."
+
+#: template-parts/content-asset.php:38 template-parts/content-asset-full.php:57
+msgid "מגרש:"
+msgstr "Field:"
+
+#: template-parts/content-asset.php:39 template-parts/content-asset-full.php:58
+msgid "חדרים:"
+msgstr "Rooms:"
+
+#: template-parts/content-asset.php:40 template-parts/content-asset-full.php:59
+msgid "בבעלות בלעדית אינהאוס"
+msgstr "Exclusive to Inhouse"
+
+#: template-parts/content-asset.php:42
+msgid "לעוד פרטים"
+msgstr "More Details"
+
+#: template-parts/content-gallery-slider.php:21
+msgid "הגדל תמונה"
+msgstr "Full screen"
+
+#: template-parts/content-asset-full.php:39
+msgid "פרטי הנכס"
+msgstr "Asset Details"
+
+#: template-parts/content-asset-full.php:68
+msgid "מיקום"
+msgstr "Location"
